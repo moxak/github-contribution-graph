@@ -3,6 +3,7 @@
 ![](contribution-graph.svg)
 
 ```bash
-chmod +x generate
-./generate %USERNAME% %OUTPUT_FILEPATH%
+chmod +x generate.sh generate_html.sh
+./generate.sh contribution-graph.svg
+./generate_html.sh index.html
 ```
