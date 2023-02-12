@@ -15,7 +15,10 @@ jobs:
       - name: Run generate script
         run: bash ./generate moxak contribution-graph.svg
       - name: Upload file
-        uses: actions/upload-artifact@v2
+        uses: actions/github@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
-          name: contribution-graph.svg
+          ref: main
           path: contribution-graph.svg
+          message: "Update contribution graph"
