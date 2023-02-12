@@ -10,8 +10,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate
-        run: ./generate
-        shell: bash
-        env:
-          USERNAME: moxak
+      - uses: actions/checkout@v2
+      - name: Run generate script
+        run: sh ./generate moxak
