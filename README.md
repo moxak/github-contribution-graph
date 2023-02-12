@@ -6,4 +6,4 @@
 chmod +x generate
 ./generate %USERNAME% %OUTPUT_FILEPATH%
 ```
-
+![](_.svg)
