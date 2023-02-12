@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run generate script
-        run: bash ./generate moxak
+        run: bash ./generate moxak contribution-graph.svg
