@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  Generate contribution glaph:
+  generate_contribution_graph:
+    runs-on: ubuntu-latest
     steps:
       - run: ./generate
