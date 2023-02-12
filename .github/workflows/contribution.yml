@@ -10,6 +10,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Run generate script
         run: bash ./generate moxak contribution-graph.svg
+      - name: Upload file
+        uses: actions/upload-artifact@v2
+        with:
+          name: contribution-graph.svg
+          path: contribution-graph.svg
