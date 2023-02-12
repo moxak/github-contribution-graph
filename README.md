@@ -4,6 +4,6 @@
 
 ```bash
 chmod +x generate
-./generate %USERNAME%
+./generate %USERNAME% %OUTPUT_FILEPATH%
 ```
 
