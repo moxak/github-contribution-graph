@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run generate script
-        run: bash ./generate moxak contribution-graph.svg
+        run: bash ./generate moxak
       - uses: actions/upload-artifact@v3
         with:
           name: contribution-graph
-          path: output/contribution-graph.svg
+          path: contribution-graph.svg
