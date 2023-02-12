@@ -82,4 +82,7 @@ jobs:
             
         }
 
-        generateContributionGraph moxak
+        generateContributionGraph $USERNAME
+      shell: bash
+      env:
+        USERNAME: moxak
