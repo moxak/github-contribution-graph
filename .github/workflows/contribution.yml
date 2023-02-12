@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run generate script
         run: bash ./generate moxak contribution-graph.svg
-      - uses: actions/checkout@v3
+      - uses: actions/upload-artifact@v3
         with:
-          ref: ${{github.head_ref}}
+          name: contribution-graph
+          ref: contribution-graph.svg
