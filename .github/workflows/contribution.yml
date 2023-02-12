@@ -16,4 +16,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: contribution-graph
-          path: contribution-graph.svg
+          path: output/contribution-graph.svg
