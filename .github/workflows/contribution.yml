@@ -15,10 +15,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      # - name: Checkout code
-      #   uses: actions/checkout@v2
       - uses: actions/checkout@v3
-      - name: Commit & Pull request
+      - name: Generate contribution graph
         run: |
           bash ./generate ${{ env.USERNAME }} ${{ env.OUTPUT_FILE }}
           git config user.name "github-actions[bot]"
