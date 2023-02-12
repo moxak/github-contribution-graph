@@ -1,6 +1,6 @@
 # GitHub Contribution Graph
 
-![](contributions.svg)
+![](contribution-graph.svg)
 
 ```bash
 chmod +x generate
