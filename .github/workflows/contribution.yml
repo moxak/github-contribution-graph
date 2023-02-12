@@ -5,6 +5,6 @@ on:
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  Generate contribution glaph
+  Generate contribution glaph:
     steps:
       - run: ./generate
