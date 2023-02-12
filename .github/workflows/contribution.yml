@@ -10,8 +10,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      - run: |
-        echo "test"
-      shell: bash
-      env:
-        USERNAME: moxak
+      - name: Generate
+        run: |
+          echo "test"
+        shell: bash
+        env:
+          USERNAME: moxak
