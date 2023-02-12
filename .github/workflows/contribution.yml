@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        USERNAME='moxak'
         function generateContributionGraph() {
             USERNAME=$1
             ESC=$(printf '\033')
@@ -83,4 +82,4 @@ jobs:
             
         }
 
-        generateContributionGraph $USERNAME
+        generateContributionGraph moxak
