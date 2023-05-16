@@ -472,7 +472,7 @@
         <g transform="translate(832, 0)">
             <rect width="11" height="11" x="-36" y="0" class="ContributionCalendar-day" data-date="2023-05-14" data-level="1" rx="2" ry="2">5 contributions on Sunday, May 14, 2023</rect>
             <rect width="11" height="11" x="-36" y="15" class="ContributionCalendar-day" data-date="2023-05-15" data-level="2" rx="2" ry="2">11 contributions on Monday, May 15, 2023</rect>
-            <rect width="11" height="11" x="-36" y="30" class="ContributionCalendar-day" data-date="2023-05-16" data-level="1" rx="2" ry="2">1 contribution on Tuesday, May 16, 2023</rect>
+            <rect width="11" height="11" x="-36" y="30" class="ContributionCalendar-day" data-date="2023-05-16" data-level="1" rx="2" ry="2">2 contributions on Tuesday, May 16, 2023</rect>
         </g>
 
         <text x="16" y="-8" class="ContributionCalendar-label">May</text>
